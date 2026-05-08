@@ -3,7 +3,8 @@ body
     background-color: pink;
     text-align: center;
     font-family: Arial;
-    margin-top: 200px;
+    padding-top: 120px;
+    margin: 0;
 }
 
 h1
@@ -22,34 +23,24 @@ button
     cursor: pointer;
 }
 
+
 .photo-collage
 {
-    margin-top: 40px;
-}
-
-.photo-collage img
-{
-    width: 250px;
-    height: auto;
-
-    border-radius: 15px;
-
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 #slideshow-image
 {
-    width: 300px;
+    width: 85vw;
+    max-width: 420px;
     height: auto;
-
     border-radius: 15px;
-
-    margin-top: 40px;
-
-    opacity: 1;
-
     transition: opacity 0.5s ease;
 }
+
 #message
 {
     font-size: 30px;
