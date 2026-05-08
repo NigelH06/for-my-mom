@@ -1,0 +1,60 @@
+body
+{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 200px;
+}
+
+h1
+{
+    color: white;
+    font-size: 35px;
+    font-family: Georgia;
+}
+
+button
+{
+    font-size: 25px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo-collage
+{
+    margin-top: 40px;
+}
+
+.photo-collage img
+{
+    width: 250px;
+    height: auto;
+
+    border-radius: 15px;
+
+    margin: 10px;
+}
+
+#slideshow-image
+{
+    width: 300px;
+    height: auto;
+
+    border-radius: 15px;
+
+    margin-top: 40px;
+
+    opacity: 1;
+
+    transition: opacity 0.5s ease;
+}
+#message
+{
+    font-size: 30px;
+    font-family: "Verdana";
+    color: white;
+
+    margin-top: 30px;
+}
