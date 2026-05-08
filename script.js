@@ -104,12 +104,17 @@ if(currentMessage >= messages.length)
     image.style.display = "block";
 	
     image.style.opacity = 0;
-    setTimeout(function()
-{
-    image.src = images[currentImage];
 
-    image.style.opacity = 1;
+setTimeout(function()
+{
+    image.onload = function()
+    {
+        image.style.opacity = 1;
+    };
+
+    image.src = images[currentImage];
 }, 500);
+
 
     currentImage++;
 
