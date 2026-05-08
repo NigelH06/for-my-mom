@@ -3,49 +3,52 @@ body
     background-color: pink;
     text-align: center;
     font-family: Arial;
-    padding-top: 120px;
+    padding-top: 60px;
     margin: 0;
 }
 
 h1
 {
     color: white;
-    font-size: 35px;
+    font-size: 52px;
     font-family: Georgia;
+    margin-bottom: 25px;
+    padding: 0 20px;
 }
 
 button
 {
-    font-size: 25px;
-    padding: 15px 30px;
+    font-size: 32px;
+    padding: 20px 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
+    margin-bottom: 25px;
 }
-
 
 .photo-collage
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #slideshow-image
 {
-    width: 85vw;
-    max-width: 420px;
+    width: 95vw;
+    max-width: 700px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: opacity 0.5s ease;
 }
 
 #message
 {
-    font-size: 30px;
-    font-family: "Verdana";
+    font-size: 42px;
+    font-family: Verdana;
     color: white;
-
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
 }
