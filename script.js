@@ -1,30 +1,29 @@
 let images =
 [
-    "Images/extra1.JPG",
-    "Images/extra2.JPG",
-    "Images/IMG_0128.JPG",
-    "Images/IMG_0152.JPG",
-    "Images/IMG_0163.JPG",
-    "Images/IMG_0196.JPG",
-    "Images/IMG_0355.JPG",
+    "Images/extra1.jpg",
+    "Images/extra2.jpg",
+    "Images/IMG_0128.jpg",
+    "Images/IMG_0152.jpg",
+    "Images/IMG_0163.jpg",
+    "Images/IMG_0196.jpg",
+    "Images/IMG_0355.jpg",
     "Images/IMG_0418.JPG",
     "Images/IMG_0421.JPG",
-    "Images/IMG_0427.JPG",
-    "Images/IMG_0611.JPG",
-    "Images/IMG_0612.JPG",
-    "Images/IMG_2615.JPG",
-    "Images/IMG_2616.JPG",
-    "Images/IMG_2617.JPG",
-    "Images/IMG_4597.JPG",
-    "Images/IMG_7125.JPG",
+    "Images/IMG_0427.jpg",
+    "Images/IMG_0611.jpg",
+    "Images/IMG_0612.jpg",
+    "Images/IMG_2615.jpg",
+    "Images/IMG_2616.jpg",
+    "Images/IMG_2617.jpg",
+    "Images/IMG_4597.jpg",
+    "Images/IMG_7125.jpg",
     "Images/IMG_8935.JPG",
     "Images/IMG_8942.JPG",
     "Images/IMG_3518.JPG",
     "Images/IMG_4703.JPG",
     "Images/IMG_5171.JPG",
-    "Images/IMG_4909.JPG"
+    "Images/IMG_4909.jpg"
 ];
-
 let messages =
 [
     "I love you mom, even in the times when it seems like I am distant.",
