@@ -143,6 +143,15 @@ if(currentMessage >= messages.length)
 
 clickCount++;
 
+let button = document.getElementById("next-button");
+let collage = document.querySelector(".photo-collage");
+
+if(clickCount == 1)
+{
+    collage.appendChild(button);
+    button.innerHTML = "Next";
+}
+
 if(clickCount % 3 == 1)
 {
     image.style.opacity = 0;
@@ -170,7 +179,13 @@ let music = document.getElementById("music");
 if(musicStarted == false)
 {
     music.src = songs[currentSong];
-    music.play();
+    music.load();
+
+    music.play().catch(function(error)
+    {
+        console.log("Playback failed:", error);
+    });
+
     musicStarted = true;
 }
 }
@@ -188,9 +203,12 @@ music.addEventListener("ended", function()
         currentSong = 0;
     }
 
-    console.log("Now playing:", songs[currentSong]);
-
     music.src = songs[currentSong];
-    music.play();
-});
 
+    music.load();
+
+    music.play().catch(function(error)
+    {
+        console.log("Playback failed:", error);
+    });
+});
