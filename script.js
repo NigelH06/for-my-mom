@@ -103,18 +103,19 @@ if(currentMessage >= messages.length)
 
     image.style.display = "block";
 	
+    if(currentMessage % 3 == 0)
+{
     image.style.opacity = 0;
 
-setTimeout(function()
-{
-    image.onload = function()
+    setTimeout(function()
     {
-        image.style.opacity = 1;
-    };
+        image.onload = function()
+        {
+            image.style.opacity = 1;
+        };
 
-    image.src = images[currentImage];
-}, 500);
-
+        image.src = images[currentImage];
+    }, 500);
 
     currentImage++;
 
@@ -122,7 +123,7 @@ setTimeout(function()
     {
         currentImage = 0;
     }
-
+}
 let music = document.getElementById("music");
 
 if(musicStarted == false)
