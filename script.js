@@ -51,6 +51,8 @@ let messages =
 "You are simply the best."
 ];
 
+let clickCount = 0;
+
 shuffleArray(images);
 
 shuffleArray(messages);
@@ -102,8 +104,10 @@ if(currentMessage >= messages.length)
     let image = document.getElementById("slideshow-image");
 
     image.style.display = "block";
-	
-    if(currentMessage % 3 == 0)
+
+clickCount++;
+
+if(clickCount % 3 == 1)
 {
     image.style.opacity = 0;
 
@@ -124,6 +128,7 @@ if(currentMessage >= messages.length)
         currentImage = 0;
     }
 }
+
 let music = document.getElementById("music");
 
 if(musicStarted == false)
