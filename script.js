@@ -105,7 +105,7 @@ let songs =
     "Audio/song4.m4a",
     "Audio/song5.m4a"
 ];
-
+shuffleArray(songs);
 let currentSong = 0;
 
 let currentImage = 0;
